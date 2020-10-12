@@ -12,11 +12,12 @@ public class LiginTest {
 		System.setProperty("webdriver.chrome.driver","C:\\selenium\\chromedriver.exe");
 		WebDriver chrome=new ChromeDriver();
 		
-	chrome.get("http://127.0.0.1/orangehrm-3.3.1/");//launch  chrome with url
+	    chrome.get("http://127.0.0.1/orangehrm-3.3.1/");
+	    //launch  chrome with url
 		chrome.findElement(By.id("txtUsername")).sendKeys("Admin");
 		chrome.findElement(By.id("txtPassword")).sendKeys("admin");
 		chrome.findElement(By.id("btnLogin")).click();
-
+  chrome.quit();
 	}
 
 }

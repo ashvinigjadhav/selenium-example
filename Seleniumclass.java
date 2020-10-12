@@ -39,6 +39,7 @@ public class Seleniumclass {
 	    dr.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 	    //implicit wait
 	    dr.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	    //end
 	    dr.quit();
 
 
