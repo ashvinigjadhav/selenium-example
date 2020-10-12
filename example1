@@ -1,0 +1,5 @@
+install chromedriver with same chrome version ,selenium jar single file 3.141.59
+
+add jar file in project -project-property-add build jar
+download project or online url
+run program
